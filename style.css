@@ -97,3 +97,312 @@ nav {
     background-color: #FFEAC5;
     height: 670px;
 }
+
+
+
+/* Début du css pour la section programme  */
+
+
+.header{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.header>h1{
+    color: #711A50;
+    margin-bottom: 20px;
+}
+
+.program{
+    background: #FFEAC5;
+    padding-bottom: 50px;
+}
+.steps{
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+
+.img1{
+    width: 150px;
+    height: 200px;
+    margin-top: -160px;
+    margin-right: -80px;
+    margin-left: 10px;
+}
+
+.img2{
+    width: 400px;
+    height: 230px;
+    margin-top: -123px;
+    margin-right: -80px;
+    margin-left: -115px;  
+}
+
+.img3{
+    width: 150px;
+    height: 200px;
+    margin-top: -160px;
+    margin-left: 10px;
+}
+
+.motif1{
+    transform: rotate(90deg);
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+
+.motif2{
+    transform: rotate(90deg);
+    width: 200px;
+    margin-top: -15px;
+    margin-left: 85px;
+}
+
+.motif3{
+    transform: rotate(90deg);
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+
+.motif4{
+    transform: rotate(90deg);
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 85px;
+    margin-left: -85px;
+}
+
+.subscriptions{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    background: white;
+    width: 200px;
+    height: 270px;
+    border: solid rgb(255, 115, 0) 3px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    background-position: center;
+}
+
+.selections{
+    width: 200px;
+    height: 270px;
+    background: white;
+    border: solid rgb(255, 115, 0) 3px;
+    /* background-image: url("images/2.png");
+    background-repeat: no-repeat; */
+    background-size: cover;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    background-position: center;
+    overflow: visible;
+}
+
+.publication{
+    width: 200px;
+    height: 270px;
+    background-color: white;
+    border: solid rgb(255, 115, 0) 3px;
+    background-size:  150px 250px;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+
+.title{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.title1{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.title2{
+    margin-top: 25px;
+    margin-right: 55px;
+}
+
+.publication>h3{
+    transform: rotateY(180deg);
+}
+
+.condition{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.program>p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.downloadBtn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    background-color: #711A50;
+    color: #FFEAC5;
+    font-size: 16px;
+    font-weight: bold;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.deadlineTimer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.timer{
+    width: 700px;
+    height: 300px;
+    background: #FFFFFF;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border: 3px solid rgb(255, 115, 0);
+}
+
+.timer>h2{
+    margin-top: 70px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    color: gray;
+    font-size: 40px;
+}
+
+.timer>h1{
+    text-align: center;
+    margin-top: -170px;
+    font-size: 80px;
+    color: #711A50;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.jours{
+    margin-left: 25px;
+}
+
+.heures{
+    margin-left: 25px;
+}
+
+.minutes{
+    margin-left: 10px;
+}
+
+.secondes{
+    margin-right: 15px;
+}
+
+.program>h1{
+    color: #711A50;
+    text-align: center;
+    margin-top: 60px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 600px;
+    justify-content: center;
+    padding-top: 30px;
+    padding: 50px;
+    /* width: 500px; */
+}
+
+input{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    border: white;
+    color: #711A50;
+    box-shadow: 0px 1px 1px 1px #888888;
+}
+
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #711A50;
+}
+
+label{
+    margin-top: 20px;
+    color: #711A50;
+}
+
+textarea{
+    margin-top: 20px;
+    padding: 20px;
+    border: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px #888888;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+
+.uploadfile{
+    color: white;
+    background: #711A50;
+    width: 250px;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+.uploadfile:hover{
+    cursor: pointer;
+}
+
+.upload{
+   display: grid;
+   grid-template-columns: 700px;
+}
+
+.btnsubmit{
+    margin-top: 30px;
+    /* m */
+    width: 600px;
+    color: white;
+    background: #711A50;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* fin du css pour la section programme */
+
