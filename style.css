@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.logo img {
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.button {
+    margin-right: 150px;
+    display: flex;
+    gap: 20px;
+}
+
+#btnStart {
+    background-color: white;
+    border: solid 2px #711A50;
+    color: black;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.submit {
+    background-color: #711A50;
+    color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.numerique {
+    color: #EF8242;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.booster {
+    color: #711A50;
+    font-size: 70px;
+}
+
+.startup {
+    color: #711A50;
+    font-size: 60px;
+
+}
+
+.description {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-size: 20px;
+}
+
+.title {
+    width: 60%;
+}
+
+#submit {
+    width: 250px;
+    height: 50px;
+    background-color: #711A50;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5rem;
+    margin-top: 30px;
+    margin-top: 50px;
+}
+
+.bg_main {
+    width: 460px;
+    height: 650px;
+    margin-top: 30px;
+}
+
+.section1 {
+    display: flex;
+    background-color: #FFEAC5;
+    height: 670px;
+}
