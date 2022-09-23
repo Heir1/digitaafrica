@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: "poppins";
+}
+.contenair{
+    background-color: #FFEAC5;
 }
 nav {
     display: flex;
@@ -10,19 +15,16 @@ nav {
     width: 100%;
     background-color: white;
 }
-
 .logo img {
     width: 200px;
     height: 100px;
-    margin-left: 100px;
+    margin-left: 70px;
 }
-
 .button {
-    margin-right: 150px;
+    margin-right: 90px;
     display: flex;
     gap: 20px;
 }
-
 #btnStart {
     background-color: white;
     border: solid 2px #711A50;
@@ -32,7 +34,6 @@ nav {
     width: 50px;
     height: 50px;
 }
-
 .submit {
     background-color: #711A50;
     color: white;
@@ -42,36 +43,29 @@ nav {
     width: 50px;
     height: 50px;
 }
-
 .numerique {
     color: #EF8242;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 5rem;
     margin-top: 5rem;
 }
-
 .booster {
     color: #711A50;
     font-size: 70px;
 }
-
 .startup {
     color: #711A50;
     font-size: 60px;
-
 }
-
 .description {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-left: 5rem;
     font-size: 20px;
 }
-
 .title {
     width: 60%;
 }
-
 #submit {
     width: 250px;
     height: 50px;
@@ -83,17 +77,72 @@ nav {
     font-size: 20px;
     margin-left: 5rem;
     margin-top: 30px;
-    margin-top: 50px;
 }
-
 .bg_main {
-    width: 460px;
-    height: 650px;
+    width: 430px;
+    height: 620px;
     margin-top: 30px;
 }
-
 .section1 {
     display: flex;
     background-color: #FFEAC5;
     height: 670px;
+}
+.section2 {
+    text-align: center;
+    height: 200px;
+}
+h2 {
+    font-size: 50px;
+    color: #711A50;
+    margin-top: 120px;
+}
+.section2 p {
+    font-family: barbow;
+    font-size: 1rem;
+}
+.img_gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 130px;
+    background-color: white;
+}
+.img_digital_africa,
+.img_german,
+.img_giz,
+.img_make_it,
+.img_kinshasa_digital {
+    width: 150px;
+    height: 100px;
+}
+.img_gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+footer p{
+    text-align: center;
+    margin-top: 20px;
+}
+.icones{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-top: 100px;
+}
+.motif{
+    height: 40px;
+    background-image: url(images/motif1.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+.vide{
+    height: 15px;
+    color: #FFEAC5;
+}
+.fa-brands{
+    color: #711A50;
+    font-size: 40px;
+    margin-right: 10px;
 }
