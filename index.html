@@ -69,7 +69,7 @@
                 <div class="timer">
                     <h2>Fin des Inscriptions dans </h2>
                     <img class="motif4" src="images/motif2.png" alt="">
-                    <h1>30 : 18 : 45 : 20</h1>
+                    <h1 id="deadlinetimer"></h1>
                     <div class="time">
                         <div class="jours">
                             JOURS
@@ -90,14 +90,14 @@
             <div class="form">
                 <form>
                     <input class="name1" type="text" placeholder="Noms*" required>
-                    <input class="email" type="text" placeholder="Email*" required>
+                    <input class="email" type="email" placeholder="Email*" required>
                     <input class="startupname" type="text" placeholder="Noms de votre Start-up*" required>
                     <label for="">Décrivez votre concept en quelques lignes*</label>
                     <textarea name="" id="" cols="30" rows="5" placeholder="Message" required></textarea>
                     <label for="">Pièces jointes*</label>
-                    <input type="file" style="display: none;" id="img">
+                    <input type="file" style="display: none;" id="pdf" required>
                     <div class="upload">
-                        <label class="uploadfile" for="img">Sélectionner un  fichier Pdf* </label>
+                        <label class="uploadfile" for="pdf">Sélectionner un  fichier Pdf* </label>
                         <button type="submit" class="btnsubmit">Soumettre votre candidature</button>
                     </div>
                 </form>
@@ -147,5 +147,7 @@
         <!-- fin footer -->
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
