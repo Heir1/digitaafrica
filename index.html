@@ -7,6 +7,7 @@
     <title>Digital Africa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -23,16 +24,19 @@
                 </div>
             </nav>
             <div class="section1">
-                <div class="title">
+                <div class="home">
                     <p class="numerique"> <span class="booster">Boostez </span><span class="startup">votre Start-up avec</span> une solution </br>numérique offerte.</p>
                     <p class="description">Vous etes une  Start-up, participez à Talent for Start-up challenge</br> by digital Africa et beneficiez d'un accompagnement gratuit pour la réalisation</br> de vos projets numérique(Website,Application mobile,logiciel de gestion,...)</br> par les apprenants de Kinshasa Digital Academy.</p>
-                    <button class="submit" id="submit" type="submit">je postule &#x2192;</button>
+                    <div class="postule">
+                        <button class="submit" id="submit" type="submit">je postule &#x2192;</button>
+                    </div>
+                    
                 </div>
                 <div class="img-main">
                     <img class="bg_main" src="images/bg_main_section.png" alt="logo talent africa">
                 </div>
             </div>
-        </header>
+        </header> 
         <!-- Fin de la création de la première section (header) -->
 
         <!--  Début de la création de la section programme -->
@@ -60,7 +64,7 @@
                 </div>
             </div>
             <div class="condition">
-                <button class="downloadBtn">Téléchager les conditions</button>
+                <button class="downloadBtn">Téléchager les conditions &#x2192;</button>
             </div>
             <p>
                 Le document ci-dessus reprend de manière intégrale les différents critères de sélection <br> qui pourront déterminer si vous etes éligibles u non au programme Talent4startups challenge                
@@ -88,14 +92,14 @@
             </div>
             <h1>REMPLISSEZ LE FORMULAIRE</h1>
             <div class="form">
-                <form>
-                    <input class="name1" type="text" placeholder="Noms*" required>
-                    <input class="email" type="email" placeholder="Email*" required>
-                    <input class="startupname" type="text" placeholder="Noms de votre Start-up*" required>
+                <form id="form">
+                    <input class="name1" type="text" name="name" placeholder="Noms*" required>
+                    <input class="email" type="email" name="email" placeholder="Email*" required>
+                    <input class="startupname" type="text" name="startup" placeholder="Noms de votre Start-up*" required>
                     <label for="">Décrivez votre concept en quelques lignes*</label>
-                    <textarea name="" id="" cols="30" rows="5" placeholder="Message" required></textarea>
+                    <textarea name="description" id="" cols="30" rows="5" placeholder="Message" required></textarea>
                     <label for="">Pièces jointes*</label>
-                    <input type="file" style="display: none;" id="pdf" required>
+                    <input type="file" name="pdf" style="display: none;" id="pdf" accept=".pdf" required>
                     <div class="upload">
                         <label class="uploadfile" for="pdf">Sélectionner un  fichier Pdf* </label>
                         <button type="submit" class="btnsubmit">Soumettre votre candidature</button>
@@ -132,16 +136,13 @@
                     <p>Développé par Digital Africa en partenariat avec Make-It in Africa, la DeutSche Geselfschalt fur</br> International zusammenarbeit(GIZ)GmbH, et le ministère pour la coopération Économique</br> et le DÉveloppement(BMZ), Talent 4 Startup est un programme pilote de bourses</br> d'études pour les métiers du numérique.</p>
                 </div>
                 <div class="icones">
-                    <div>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
                 </div>
             
                 <div class="motif">
+                    <img src="images/motifc.png" alt="">
                 </div>
-                <!-- <div class="vide">
-                </div> -->
             </footer>
 
         <!-- fin footer -->

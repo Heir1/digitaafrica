@@ -1,3 +1,5 @@
+// start deadline script code
+
 let deadline = new Date("Oct 26, 2022 16:00:00").getTime();
 let x = setInterval(function() {
 let now = new Date().getTime();
@@ -19,3 +21,22 @@ document.getElementById("deadlinetimer").innerHTML = days + " : "
         document.getElementById("deadlinetimer").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+// end deadline script code
+
+//  js api
+
+const form = document.getElementById('form');
+
+form.addEventListener('submit', function(e){
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    console.log([...formData]);
+
+    axios.post('https://httpbin.org/post', formData)
+        .then(res => console.log(res))
+        .catch(err => console.log(err))
+    
+    document.getElementById("form").reset()
+})
